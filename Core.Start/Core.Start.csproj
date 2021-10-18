@@ -12,6 +12,7 @@
     <ProjectReference Include="..\Core.Builder\Core.Builder.csproj" />
     <ProjectReference Include="..\Core.Factory\Core.Factory.csproj" />
     <ProjectReference Include="..\Core.Prototype\Core.Prototype.csproj" />
+    <ProjectReference Include="..\Core.Proxy\Core.Proxy.csproj" />
     <ProjectReference Include="..\Core.Singleton\Core.Singleton.csproj" />
   </ItemGroup>
 

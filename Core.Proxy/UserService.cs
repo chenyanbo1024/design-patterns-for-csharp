@@ -20,7 +20,11 @@ namespace Core.Proxy
 
         public bool Register(string username, string password)
         {
-            throw new NotImplementedException();
+            if (username?.Length > 3 && password?.Length >= 6)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
